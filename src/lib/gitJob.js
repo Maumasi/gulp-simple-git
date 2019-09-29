@@ -3,8 +3,8 @@
 
 const shell = require('shelljs');
 const { argv } = require('yargs');
-const gitMessageBuilder = require('./gitMessageBuilder');
-const gitInfo = require('./gitInfo');
+const gitMessageBuilder = require('./_gitMessageBuilder');
+const gitInfo = require('./_gitInfo');
 
 // gulp task
 function gitJob(done) {
