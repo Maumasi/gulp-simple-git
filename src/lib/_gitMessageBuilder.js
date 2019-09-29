@@ -26,7 +26,7 @@ function gitMessageBuilder() {
   if(!message || !(message.length > 0)) {
     message = 'no message for commit.';
   }
-  return `[BRANCH: ${branch}] | [USER: ${user}] | ${heading} :: ${message}`;
+  return `[BRANCH: ${currentBranch}] | [USER: ${user}] | ${heading} :: ${message}`;
 }
 
 module.exports = gitMessageBuilder;
