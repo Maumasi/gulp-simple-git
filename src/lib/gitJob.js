@@ -8,7 +8,7 @@ const gitInfo = require('./_gitInfo');
 
 // gulp task
 function gitJob(done) {
-  const { branch } = gitInfo;
+  const { currentBranch } = gitInfo;
 
   let gitJob = '';
   if(argv.a) {

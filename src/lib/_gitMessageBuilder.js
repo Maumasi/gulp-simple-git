@@ -5,7 +5,7 @@ const { argv } = require('yargs');
 const gitInfo = require('./_gitInfo');
 
 function gitMessageBuilder() {
-  const { user, branch } = gitInfo;
+  const { user, currentBranch } = gitInfo;
   let heading = '';
   if(argv.s) {
     heading = 'STABLE'
