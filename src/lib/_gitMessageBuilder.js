@@ -2,6 +2,7 @@
 'use strict'
 
 const { argv } = require('yargs');
+const gitInfo = require('./_gitInfo');
 
 function gitMessageBuilder() {
   const { user, branch } = gitInfo;
