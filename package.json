@@ -1,6 +1,6 @@
 {
   "name": "gulp-simple-git",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "auto git tool",
   "main": "index.js",
   "scripts": {
