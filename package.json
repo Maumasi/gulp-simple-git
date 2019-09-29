@@ -12,9 +12,5 @@
     "cli-color": "^1.4.0",
     "shelljs": "^0.8.3",
     "yargs": "^14.0.0"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-lib-generator": "^1.2.15"
   }
 }
