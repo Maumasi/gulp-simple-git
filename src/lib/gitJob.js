@@ -18,8 +18,6 @@ function gitJob(done) {
     gitJob += ` && \`which git\` commit --message "${gitMessageBuilder()}"`;
   }
   if(argv.p) {
-    gitJob = `\`which git\` add .`;
-    gitJob += ` && \`which git\` commit --message "${gitMessageBuilder()}"`;
     gitJob += ` && \`which git\` push -u ${argv.remote || 'origin'} ${argv.branch || branch}`;
   }
   // let gitJob = `\`which git\` add .`;
