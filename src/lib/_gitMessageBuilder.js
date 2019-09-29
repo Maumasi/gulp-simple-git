@@ -3,7 +3,7 @@
 
 const { argv } = require('yargs');
 
-exports.gitMessageBuilder = () => {
+function gitMessageBuilder() {
   const { user, branch } = gitInfo;
   let heading = '';
   if(argv.s) {
@@ -27,3 +27,5 @@ exports.gitMessageBuilder = () => {
   }
   return `[BRANCH: ${branch}] | [USER: ${user}] | ${heading} :: ${message}`;
 }
+
+module.exports = gitMessageBuilder;
