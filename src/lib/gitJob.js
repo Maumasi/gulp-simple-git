@@ -15,10 +15,16 @@ function gitJob(done) {
     gitJob += `\`which git\` add .`;
   }
   if(argv.c) {
-    gitJob += ` && \`which git\` commit --message "${gitMessageBuilder()}"`;
+    if(gitJob.length) {
+      gitJob += ' && ';
+    }
+    gitJob += `\`which git\` commit --message "${gitMessageBuilder()}"`;
   }
   if(argv.p) {
-    gitJob += ` && \`which git\` push -u ${argv.remote || 'origin'} ${argv.branch || branch}`;
+    if(gitJob.length) {
+      gitJob += ' && ';
+    }
+    gitJob += `\`which git\` push -u ${argv.remote || 'origin'} ${argv.branch || branch}`;
   }
   // let gitJob = `\`which git\` add .`;
   // gitJob += ` && \`which git\` commit --message "${gitMessageBuilder()}"`;
