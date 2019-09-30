@@ -1,3 +1,3 @@
 module.exports = {
-	gitJob: require('./lib/gitJob'),
+	simpleGit: require('./lib/simpleGit'),
 };

@@ -1,6 +1,6 @@
 
 'use strict'
 
-const { gitJob } = require('./src');
+const { simpleGit } = require('./src');
 
-module.exports = gitJob;
+module.exports = simpleGit;

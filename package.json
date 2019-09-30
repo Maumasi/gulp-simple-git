@@ -9,7 +9,6 @@
   "author": "Liu Maumasi",
   "license": "ISC",
   "dependencies": {
-    "cli-color": "^1.4.0",
     "shelljs": "^0.8.3",
     "yargs": "^14.0.0"
   }
