@@ -78,7 +78,11 @@ const gitOptions = {
 ```
 </br>
 
-### Gulp Info
+### Git Info
+
+<p>
+Some simple Git info is made available in a way the can be utilized to help create your desired Gulp task for Git.
+</p>
 
 ```javascript
 const gulp = require('gulp');
