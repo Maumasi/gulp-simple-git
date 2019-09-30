@@ -50,7 +50,7 @@ gulp.task('git_with_options', gulp.series(gitTask));
 <p>
 In the command line options are passed with tags:
 </p>
-```
+```sh
 -R, --remote "origin" #.........default => 'origin'
 -B, --branch "master" #.........default => {local working branch}
 -a  #...........................`git add .` :: default => false
