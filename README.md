@@ -6,6 +6,7 @@ A simple Gulp task to run common Git tasks that can be automated.
 
 <hr>
 ## Install
+
 ```
 npm install --save-dev gulp-simple-git
 ```
