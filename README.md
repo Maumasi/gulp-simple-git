@@ -91,7 +91,6 @@ const {
   localBranches, //.............<array> of local branches
   user, //......................<string> git username
 } = gitInfo;
-
 ```
 
 
