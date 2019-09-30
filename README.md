@@ -62,6 +62,28 @@ Passing options in with command line flags:
 -m "message to commit" #........`-m "message to commit"` :: default => [BRANCH: {currentBranch}] | [USER: {user}] | AUTO-COMMIT :: no message for commit.
 -p #............................`git push` :: default => false
 ```
+</br>
+
+<p>
+
+In additional to the message flag (<code>  -m  </code>), optional auto-generated messages can be generated:
+</p>
+
+```sh
+-s #...STABLE
+-b #...BROKEN
+-f #...FEATURE
+-x #...HOTFIX
+```
+
+##### In Use
+
+```sh
+-sm #...[BRANCH: {currentBranch}] | [USER: {user}] | STABLE :: no message for commit.
+-bm #...[BRANCH: {currentBranch}] | [USER: {user}] | BROKEN :: no message for commit.
+-fm #...[BRANCH: {currentBranch}] | [USER: {user}] | FEATURE :: no message for commit.
+-xm #...[BRANCH: {currentBranch}] | [USER: {user}] | HOTFIX :: no message for commit.
+```
 
 #### Options object
 <p>
