@@ -5,6 +5,7 @@ A simple Gulp task to run common Git tasks that can be automated.
 </br>
 
 <hr>
+
 ## Install
 
 ```
