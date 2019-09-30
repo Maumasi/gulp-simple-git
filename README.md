@@ -41,7 +41,7 @@ const { gitTask } = simpleGit(gitOptions);
 const { gitTask } = simpleGit();
 
 // gulp task with options
-gulp.task('git_with_options', gulp.series(gitTask));
+gulp.task('auto-git-add-commit-and-push', gulp.series(gitTask));
 ```
 
 </br>
