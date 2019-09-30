@@ -50,7 +50,7 @@ gulp.task('auto-git-add-commit-and-push', gulp.series(gitTask));
 
 #### Command line options
 <p>
-In the command line options are passed with tags:
+Passing options in with command line flags:
 </p>
 
 
